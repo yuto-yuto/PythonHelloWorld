@@ -1,7 +1,6 @@
 """
 This is comment section
 """
-from TestClass import *
 
 def display_hello_world():
     """
@@ -28,8 +27,5 @@ for char in numberString:
         print("The number is 5.")
     else:
         print("The number ", number, " is less than 5.")
-
-testClass = TestClass()
-testClass.greet()
 
 print("End")
